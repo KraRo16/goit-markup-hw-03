@@ -44,6 +44,8 @@ body {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /*=========== COMPONENTS ===========*/
@@ -59,8 +61,8 @@ body {
 
 /*=========== HEADER ===========*/
 .page-header {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .page-header-container {
   display: flex;
@@ -70,10 +72,10 @@ body {
   display: flex;
   align-items: center;
 }
-.header-contact-list {
+.menu {
   display: flex;
 }
-.menu-list {
+.menu-contacts {
   display: flex;
 }
 .menu-item:not(:last-child) {
@@ -81,9 +83,6 @@ body {
 }
 .e-mail {
   margin-left: 330px;
-  margin-right: auto;
-}
-.header-contact-item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -141,22 +140,26 @@ body {
   color: #ffffff;
 }
 .hero-modal-btn {
+  min-width: 20px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  min-width: 200px;
+  height: 50px;
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--accent-color);
   cursor: pointer;
+  border-width: 0px;
+  border-radius: 4px;
+  padding: 10px 32px;
 }
 .hero-modal-btn:hover,
 .hero-modal-btn:focus {
   background-color: #188ce8;
 }
+
 /*=========== /HERO ===========*/
 
 /*=========== ADVANTAGES ===========*/
