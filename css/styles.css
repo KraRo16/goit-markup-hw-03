@@ -24,6 +24,8 @@ ul {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .list {
@@ -54,6 +56,11 @@ body {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.what-we-do,
+.employees-section {
+    padding-top: 0px;
 }
 
 .section-title {
