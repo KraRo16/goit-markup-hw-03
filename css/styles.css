@@ -28,8 +28,9 @@ img {
     height: auto;
 }
 
+
 .hidden {
-    display: none;
+    visibility: hidden;
 }
 
 .list {
@@ -39,6 +40,7 @@ img {
 .link {
     text-decoration: none;
 }
+
 
 .hero,
 .footer {
@@ -150,7 +152,7 @@ body {
     color: var(--accent-color);
 }
 
-.menu-link:active {
+.link.current {
     color: var(--accent-color);
 }
 
@@ -172,7 +174,7 @@ body {
 /*=========== HERO ===========*/
 .hero {
     display: flex;
-    padding: 200px;
+    padding: 200px 0px 200px 0px;
     text-align: center;
 }
 
@@ -290,8 +292,8 @@ body {
 }
 
 .employees-description {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /*=========== /OUR TEAM ===========*/
